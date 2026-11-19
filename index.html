@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand | Network Engineer</title>
+  <meta name="description"
+    content="Portfolio of Anand - Network Engineer specializing in enterprise routing, switching, infrastructure, and network architecture.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- SITE HEADER WITH 3 MENUS (ACADEMIC, WORK, SKILLS) -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Nav Menu: Academic, Work, Skills, Back to home -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="academic.html" class="nav-link">Academic</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="index.html" class="nav-link nav-card-link active" title="Current Page (Home)">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          Back to home
+        </a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Mobile Drawer Hamburger Toggle Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link active">Back to home</a>
+        <a href="academic.html" class="mobile-nav-link">Academic</a>
+        <a href="work.html" class="mobile-nav-link">Work</a>
+        <a href="skills.html" class="mobile-nav-link">Skills</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION WITH INTERACTIVE COLOR REVEAL -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-layer hero-bg-bw"></div>
+      <div class="hero-bg-layer hero-bg-color" id="heroBgColor"></div>
+      <div class="hero-cursor-glow" id="heroCursorGlow"></div>
+
+      <div class="hero-bg-glows">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+      </div>
+
+      <!-- Introduction Text (Middle Left) -->
+      <div class="hero-text-container">
+        <h1 class="hero-name">Hi, I'm Anand</h1>
+        <p class="hero-role-text">Network Engineer</p>
+        <p class="hero-experience-text">with 7 years of experience in networking, cloud infrastructure, firewall
+          security, and IT infrastructure management.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT & HIRE ME SECTION (MIDDLE SECTION) -->
+    <section class="section-padding contact-section" id="contact">
+      <div class="section-bg-layer section-bg-bw"></div>
+      <div class="section-bg-layer section-bg-color" id="contactBgColor"></div>
+      <div class="section-bg-overlay"></div>
+      <div class="container contact-container-content">
+        <div class="section-header text-center">
+          <h2 class="section-title">Experience in</h2>
+        </div>
+
+        <!-- Infinite Logo Marquee (Right to Left) -->
+        <div class="marquee-wrapper">
+          <div class="marquee-track">
+            <!-- Set 1 -->
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Cisco Systems">
+                <img src="assets/logos/cisco.png" alt="Cisco Systems" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Fortinet Network Security">
+                <img src="assets/logos/fortinet.png" alt="Fortinet" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Sophos Cybersecurity">
+                <img src="assets/logos/sophos.png" alt="Sophos" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Amazon Web Services (AWS)">
+                <img src="assets/logos/aws.png" alt="Amazon Web Services" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Oracle Cloud Infrastructure">
+                <img src="assets/logos/oracle.png" alt="Oracle Cloud" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Aruba Networks">
+                <img src="assets/logos/aruba.png" alt="Aruba Networks" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Huawei Enterprise">
+                <img src="assets/logos/huawei.png" alt="Huawei" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="NETGEAR Networking">
+                <img src="assets/logos/netgear.png" alt="NETGEAR" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Netlink ICT & Fiber Solutions">
+                <img src="assets/logos/netlink.png" alt="Netlink" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Genexis Fiber & Broadband">
+                <img src="assets/logos/genexis.png" alt="Genexis" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Xtender Networking Solutions">
+                <img src="assets/logos/xtender.png" alt="Xtender" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="TP-Link Networking">
+                <img src="assets/logos/tplink.png" alt="TP-Link" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="*astTECS Communications & Telephony">
+                <img src="assets/logos/astecs.png" alt="astTECS" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Tally Solutions">
+                <img src="assets/logos/tally.png" alt="Tally Solutions" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Hikvision Security & Surveillance">
+                <img src="assets/logos/hikvision.png" alt="Hikvision" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Seqrite Endpoint Security">
+                <img src="assets/logos/seqrite.png" alt="Seqrite Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="eScan Endpoint Security">
+                <img src="assets/logos/escan.png" alt="eScan Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item">
+              <div class="marquee-logo-card" title="Microsoft Outlook / Exchange">
+                <img src="assets/logos/outlook.png" alt="Microsoft Outlook" class="marquee-logo-img">
+              </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Cisco Systems">
+                <img src="assets/logos/cisco.png" alt="Cisco Systems" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Fortinet Network Security">
+                <img src="assets/logos/fortinet.png" alt="Fortinet" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Sophos Cybersecurity">
+                <img src="assets/logos/sophos.png" alt="Sophos" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Amazon Web Services (AWS)">
+                <img src="assets/logos/aws.png" alt="Amazon Web Services" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Oracle Cloud Infrastructure">
+                <img src="assets/logos/oracle.png" alt="Oracle Cloud" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Aruba Networks">
+                <img src="assets/logos/aruba.png" alt="Aruba Networks" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Huawei Enterprise">
+                <img src="assets/logos/huawei.png" alt="Huawei" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="NETGEAR Networking">
+                <img src="assets/logos/netgear.png" alt="NETGEAR" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Netlink ICT & Fiber Solutions">
+                <img src="assets/logos/netlink.png" alt="Netlink" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Genexis Fiber & Broadband">
+                <img src="assets/logos/genexis.png" alt="Genexis" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Xtender Networking Solutions">
+                <img src="assets/logos/xtender.png" alt="Xtender" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="TP-Link Networking">
+                <img src="assets/logos/tplink.png" alt="TP-Link" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="*astTECS Communications & Telephony">
+                <img src="assets/logos/astecs.png" alt="astTECS" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Tally Solutions">
+                <img src="assets/logos/tally.png" alt="Tally Solutions" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Hikvision Security & Surveillance">
+                <img src="assets/logos/hikvision.png" alt="Hikvision" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Seqrite Endpoint Security">
+                <img src="assets/logos/seqrite.png" alt="Seqrite Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="eScan Endpoint Security">
+                <img src="assets/logos/escan.png" alt="eScan Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Microsoft Outlook / Exchange">
+                <img src="assets/logos/outlook.png" alt="Microsoft Outlook" class="marquee-logo-img">
+              </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Cisco Systems">
+                <img src="assets/logos/cisco.png" alt="Cisco Systems" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Fortinet Network Security">
+                <img src="assets/logos/fortinet.png" alt="Fortinet" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Sophos Cybersecurity">
+                <img src="assets/logos/sophos.png" alt="Sophos" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Amazon Web Services (AWS)">
+                <img src="assets/logos/aws.png" alt="Amazon Web Services" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Oracle Cloud Infrastructure">
+                <img src="assets/logos/oracle.png" alt="Oracle Cloud" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Aruba Networks">
+                <img src="assets/logos/aruba.png" alt="Aruba Networks" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Huawei Enterprise">
+                <img src="assets/logos/huawei.png" alt="Huawei" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="NETGEAR Networking">
+                <img src="assets/logos/netgear.png" alt="NETGEAR" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Netlink ICT & Fiber Solutions">
+                <img src="assets/logos/netlink.png" alt="Netlink" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Genexis Fiber & Broadband">
+                <img src="assets/logos/genexis.png" alt="Genexis" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Xtender Networking Solutions">
+                <img src="assets/logos/xtender.png" alt="Xtender" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="TP-Link Networking">
+                <img src="assets/logos/tplink.png" alt="TP-Link" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="*astTECS Communications & Telephony">
+                <img src="assets/logos/astecs.png" alt="astTECS" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Tally Solutions">
+                <img src="assets/logos/tally.png" alt="Tally Solutions" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Hikvision Security & Surveillance">
+                <img src="assets/logos/hikvision.png" alt="Hikvision" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Seqrite Endpoint Security">
+                <img src="assets/logos/seqrite.png" alt="Seqrite Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="eScan Endpoint Security">
+                <img src="assets/logos/escan.png" alt="eScan Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Microsoft Outlook / Exchange">
+                <img src="assets/logos/outlook.png" alt="Microsoft Outlook" class="marquee-logo-img">
+              </div>
+            </div>
+
+            <!-- Set 4 -->
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Cisco Systems">
+                <img src="assets/logos/cisco.png" alt="Cisco Systems" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Fortinet Network Security">
+                <img src="assets/logos/fortinet.png" alt="Fortinet" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Sophos Cybersecurity">
+                <img src="assets/logos/sophos.png" alt="Sophos" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Amazon Web Services (AWS)">
+                <img src="assets/logos/aws.png" alt="Amazon Web Services" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Oracle Cloud Infrastructure">
+                <img src="assets/logos/oracle.png" alt="Oracle Cloud" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Aruba Networks">
+                <img src="assets/logos/aruba.png" alt="Aruba Networks" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Huawei Enterprise">
+                <img src="assets/logos/huawei.png" alt="Huawei" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="NETGEAR Networking">
+                <img src="assets/logos/netgear.png" alt="NETGEAR" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Netlink ICT & Fiber Solutions">
+                <img src="assets/logos/netlink.png" alt="Netlink" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Genexis Fiber & Broadband">
+                <img src="assets/logos/genexis.png" alt="Genexis" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Xtender Networking Solutions">
+                <img src="assets/logos/xtender.png" alt="Xtender" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="TP-Link Networking">
+                <img src="assets/logos/tplink.png" alt="TP-Link" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="*astTECS Communications & Telephony">
+                <img src="assets/logos/astecs.png" alt="astTECS" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Tally Solutions">
+                <img src="assets/logos/tally.png" alt="Tally Solutions" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Hikvision Security & Surveillance">
+                <img src="assets/logos/hikvision.png" alt="Hikvision" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Seqrite Endpoint Security">
+                <img src="assets/logos/seqrite.png" alt="Seqrite Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="eScan Endpoint Security">
+                <img src="assets/logos/escan.png" alt="eScan Endpoint Security" class="marquee-logo-img">
+              </div>
+            </div>
+            <div class="marquee-item" aria-hidden="true">
+              <div class="marquee-logo-card" title="Microsoft Outlook / Exchange">
+                <img src="assets/logos/outlook.png" alt="Microsoft Outlook" class="marquee-logo-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SITE FOOTER WITH INTERACTIVE WORKSPACE BACKGROUND -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-bg-layer footer-bg-bw"></div>
+    <div class="footer-bg-layer footer-bg-color" id="footerBgColor"></div>
+    <div class="footer-overlay"></div>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <span class="footer-dot"></span>
+          <span>Anand krishnan eu</span>
+        </div>
+        <p class="footer-copy">email : <a href="mailto:k10051060@gmail.com">k10051060@gmail.com</a></p>
+        <p class="footer-copy">contact number : <a href="tel:+918075346208">+91 8075346208</a></p>
+      </div>
+
+      <div class="footer-back-to-top">
+        <a href="#hero" class="btn btn-outline btn-sm" aria-label="Back to top">
+          ↑ Back to Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+
+</html>

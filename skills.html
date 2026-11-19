@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Skills & Competencies | Anand - Network Engineer</title>
+  <meta name="description" content="Technical skills, network engineering competencies, firewall security, cloud infrastructure, and hardware platforms mastered by Anand.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- SITE HEADER WITH 3 MENUS (ACADEMIC, WORK, SKILLS) -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Nav Menu: Academic, Work, Skills, Back to home -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="academic.html" class="nav-link">Academic</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="skills.html" class="nav-link active">Skills</a>
+        <a href="index.html" class="nav-link nav-card-link" title="Return to Home">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          Back to home
+        </a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Mobile Drawer Hamburger Toggle Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Back to home</a>
+        <a href="academic.html" class="mobile-nav-link">Academic</a>
+        <a href="work.html" class="mobile-nav-link">Work</a>
+        <a href="skills.html" class="mobile-nav-link active">Skills</a>
+      </div>
+    </div>
+  </header>
+
+  <main style="min-height: calc(100vh - 100px); padding-top: calc(var(--header-height) + 2rem); padding-bottom: 3rem;">
+    <div class="container" style="max-width: 1480px;">
+      <div class="skills-pro-grid">
+        <!-- 1. Networking & Infrastructure -->
+        <div class="skill-cat-card" style="--cat-accent: #06b6d4;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">01</span>
+            <div class="skill-cat-icon">🌐</div>
+          </div>
+          <h2 class="skill-cat-title">1. Networking &amp; Infrastructure</h2>
+          <ul class="skill-cat-list">
+            <li>LAN/WAN Network Administration</li>
+            <li>TCP/IP, UDP, DNS, DHCP</li>
+            <li>VLAN Configuration and Management</li>
+            <li>Routing and Switching</li>
+            <li>Static and Dynamic Routing</li>
+            <li>OSPF, EIGRP, RIP, BGP</li>
+            <li>STP, RSTP, MSTP</li>
+            <li>NAT and Port Forwarding</li>
+            <li>FTTH, OLT and ONT Management</li>
+            <li>Network Troubleshooting</li>
+            <li>Network Infrastructure Management</li>
+          </ul>
+        </div>
+
+        <!-- 2. Firewall & Network Security -->
+        <div class="skill-cat-card" style="--cat-accent: #f43f5e;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">02</span>
+            <div class="skill-cat-icon">🛡️</div>
+          </div>
+          <h2 class="skill-cat-title">2. Firewall &amp; Network Security</h2>
+          <ul class="skill-cat-list">
+            <li>Fortinet FortiGate Firewall Administration</li>
+            <li>Sophos Firewall Administration</li>
+            <li>Anexgate ACE Firewall</li>
+            <li>IPsec VPN Configuration</li>
+            <li>Remote Access VPN</li>
+            <li>SSL VPN Configuration</li>
+            <li>Firewall Policy Management</li>
+            <li>NAT and Security Rule Configuration</li>
+            <li>IDS/IPS</li>
+            <li>Endpoint Security Management</li>
+            <li>Network Access Control</li>
+            <li>Security Monitoring and Log Analysis</li>
+          </ul>
+        </div>
+
+        <!-- 3. Network Monitoring & Management -->
+        <div class="skill-cat-card" style="--cat-accent: #10b981;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">03</span>
+            <div class="skill-cat-icon">📊</div>
+          </div>
+          <h2 class="skill-cat-title">3. Network Monitoring &amp; Management</h2>
+          <ul class="skill-cat-list">
+            <li>PRTG Network Monitor</li>
+            <li>ManageEngine</li>
+            <li>Observium</li>
+            <li>KL Host Monitor</li>
+            <li>Network Performance Monitoring</li>
+            <li>Bandwidth Utilization Analysis</li>
+            <li>Network Availability Monitoring</li>
+            <li>Incident Management</li>
+            <li>Network Documentation</li>
+            <li>NOC Operations</li>
+          </ul>
+        </div>
+
+        <!-- 4. Server & System Administration -->
+        <div class="skill-cat-card" style="--cat-accent: #3b82f6;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">04</span>
+            <div class="skill-cat-icon">🖥️</div>
+          </div>
+          <h2 class="skill-cat-title">4. Server &amp; System Administration</h2>
+          <ul class="skill-cat-list">
+            <li>Windows Server Administration</li>
+            <li>Active Directory Management</li>
+            <li>Group Policy Management (GPO)</li>
+            <li>DNS and DHCP Server Management</li>
+            <li>IIS Configuration</li>
+            <li>FTP Server Configuration</li>
+            <li>SSL Certificate Management</li>
+            <li>File Server Management</li>
+            <li>Microsoft SQL Server</li>
+            <li>MySQL Database Management</li>
+            <li>NAS Storage Management</li>
+          </ul>
+        </div>
+
+        <!-- 5. Cloud & Virtualization -->
+        <div class="skill-cat-card" style="--cat-accent: #f59e0b;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">05</span>
+            <div class="skill-cat-icon">☁️</div>
+          </div>
+          <h2 class="skill-cat-title">5. Cloud &amp; Virtualization</h2>
+          <ul class="skill-cat-list">
+            <li>Oracle Cloud Infrastructure (OCI)</li>
+            <li>Cloud Infrastructure Management</li>
+            <li>Cloud Resource Monitoring</li>
+            <li>Server Management</li>
+            <li>Backup and Recovery Management</li>
+          </ul>
+        </div>
+
+        <!-- 6. IT Operations & Enterprise Management -->
+        <div class="skill-cat-card" style="--cat-accent: #8b5cf6;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">06</span>
+            <div class="skill-cat-icon">🏢</div>
+          </div>
+          <h2 class="skill-cat-title">6. IT Operations &amp; Enterprise Management</h2>
+          <ul class="skill-cat-list">
+            <li>IT Infrastructure Management</li>
+            <li>IT Asset Management</li>
+            <li>Odoo Helpdesk Management</li>
+            <li>IT Service Management (ITSM)</li>
+            <li>Incident and Change Management</li>
+            <li>Vendor Coordination</li>
+            <li>Branch Network Management</li>
+            <li>IT Procurement and Coordination</li>
+            <li>Technical Documentation</li>
+            <li>IT Policy Implementation</li>
+          </ul>
+        </div>
+
+        <!-- 7. Cybersecurity -->
+        <div class="skill-cat-card" style="--cat-accent: #ec4899;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">07</span>
+            <div class="skill-cat-icon">🔐</div>
+          </div>
+          <h2 class="skill-cat-title">7. Cybersecurity</h2>
+          <ul class="skill-cat-list">
+            <li>Network Security Administration</li>
+            <li>SIEM Fundamentals</li>
+            <li>SOAR Fundamentals</li>
+            <li>SOC Operations Fundamentals</li>
+            <li>MITRE ATT&amp;CK Framework</li>
+            <li>DDoS Attack Awareness</li>
+            <li>Brute Force Attack Prevention</li>
+            <li>Ransomware Protection</li>
+            <li>Multi-Factor Authentication (MFA)</li>
+            <li>Security Policy Management</li>
+          </ul>
+        </div>
+
+        <!-- 8. Tools & Technologies -->
+        <div class="skill-cat-card" style="--cat-accent: #14b8a6;">
+          <div class="skill-cat-top">
+            <span class="skill-cat-num">08</span>
+            <div class="skill-cat-icon">🛠️</div>
+          </div>
+          <h2 class="skill-cat-title">8. Tools &amp; Technologies</h2>
+          <ul class="skill-cat-list">
+            <li>Fortinet FortiGate</li>
+            <li>Sophos Firewall</li>
+            <li>Anexgate</li>
+            <li>PRTG</li>
+            <li>ManageEngine</li>
+            <li>Microsoft Windows Server</li>
+            <li>Microsoft Active Directory</li>
+            <li>Microsoft IIS</li>
+            <li>FileZilla</li>
+            <li>Odoo</li>
+            <li>Seqrite EDR</li>
+            <li>Hikvision</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
